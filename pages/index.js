@@ -2,30 +2,30 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillYoutube, AiFillTwitterCircle, AiFillGithub, AiFillGoogleCircle } from 'react-icons/ai';
 import Image from "next/image";
-import deved from "../public/dev-ed-wave.png";
+import deved from "@/public/dev-ed-wave.png";
 
-import design from '../public/design.png';
-import code from '../public/code.png';
-import test from '../public/test.png';
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
-import web7 from "../public/web7.png";
-import web8 from "../public/web8.png";
-import web9 from "../public/web9.png";
-import web10 from "../public/web10.png";
-import web11 from "../public/web11.png";
-import web12 from "../public/web12.png";
-import web13 from "../public/web13.png";
-import web14 from "../public/web14.png";
-import web15 from "../public/web15.png";
-import web16 from "../public/web16.png";
-import web17 from "../public/web17.png";
-import web18 from "../public/web18.png";
-import web19 from "../public/web19.png";
+import design from '@/public/design.png';
+import code from '@/public/code.png';
+import test from '@/public/test.png';
+import web1 from "@/public/web1.png";
+import web2 from "@/public/web2.png";
+import web3 from "@/public/web3.png";
+import web4 from "@/public/web4.png";
+import web5 from "@/public/web5.png";
+import web6 from "@/public/web6.png";
+import web7 from "@/public/web7.png";
+import web8 from "@/public/web8.png";
+import web9 from "@/public/web9.png";
+import web10 from "@/public/web10.png";
+import web11 from "@/public/web11.png";
+import web12 from "@/public/web12.png";
+import web13 from "@/public/web13.png";
+import web14 from "@/public/web14.png";
+import web15 from "@/public/web15.png";
+import web16 from "@/public/web16.png";
+import web17 from "@/public/web17.png";
+import web18 from "@/public/web18.png";
+import web19 from "@/public/web19.png";
 
 
 
@@ -34,7 +34,7 @@ import React, { useState, useEffect } from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Typewriter from './Typewriter';
 import Portfolio from './Portfolio';
-import buymecoffee from "../public/buymecoffee.png";
+import buymecoffee from "@/public/buymecoffee.png";
 
 
 
