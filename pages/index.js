@@ -167,79 +167,79 @@ export default function Home() {
             </a> */}
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web1.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web1.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web2.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web2.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web3.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web3.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web4.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web4.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web5.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web5.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web6.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web6.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web7.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web7.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web8.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web8.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web9.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web9.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web10.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web10.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web11.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web11.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web12.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web12.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web13.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web13.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web14.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web14.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web15.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web15.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web16.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web16.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web17.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web17.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web18.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web18.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
             <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web19.png" alt="My Image" fill className=" object-cover" />
+              <Image src="/web19.PNG" alt="My Image" fill className=" object-cover" />
             </a>
 
 
