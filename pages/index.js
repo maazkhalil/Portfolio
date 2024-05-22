@@ -87,7 +87,7 @@ export default function Home() {
             </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 mb-10">
-            <Image src={deved} layout="fill" objectFit="cover" />
+            <Image src={'/dev-ed-wave.png'} layout="fill" objectFit="cover" />
           </div>
         </section>
 
@@ -101,7 +101,7 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <div className="flex justify-center">
-                <Image src={design} width={100} height={100} />
+                <Image src={'/design.png'} width={100} height={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">Game Design</h3>
               <p className="py-2">
@@ -116,7 +116,7 @@ export default function Home() {
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <div className="flex justify-center">
-                <Image src={code} width={100} height={100} />
+                <Image src={'/code.png'} width={100} height={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">Game Development</h3>
               <p className="py-2">
@@ -132,7 +132,7 @@ export default function Home() {
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <div className="flex justify-center">
-                <Image src={test} width={100} height={100} />
+                <Image src={'/test.png'} width={100} height={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">Game Testing</h3>
               <p className="py-2">
@@ -159,102 +159,181 @@ export default function Home() {
               Welcome to my gaming universe! 🎮 Dive into a collection of <span className="text-teal-500">games</span> where every pixel tells a story. From solo ventures to collaborative masterpieces, explore my <span className="text-teal-500">portfolio</span> to witness the fusion of passion, skill, and endless imagination. Join me on this journey through the realms of interactive entertainment, where every click unlocks a new adventure. 🚀
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 py-10">
-            <div className="flex-1 rounded-lg overflow-hidden">
-              <a href="https://shorturl.at/jwBS5" target="_blank" rel="noopener noreferrer">
-                <Image src={web1} alt="Image 1" className="object-cover w-full h-full" />
-              </a>
-            </div>
-            <div className="flex-1 rounded-lg overflow-hidden">
+          <div className="grid grid-cols-1 lg:grid-cols-3  gap-5 py-10">
+            {/* <a href="https://shorturl.at/jwBS5" target="_blank" rel="noopener noreferrer" className=" h-10 w-10">
+              <div className=" rounded-lg  h-10 w-10">
+                <Image src={'/web1.png'} alt="Image 1" fill className="" />
+              </div>
+            </a> */}
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web1.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web2.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web3.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web4.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web5.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web6.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web7.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web8.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web9.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web10.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web11.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web12.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web13.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web14.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web15.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web16.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web17.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web18.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
+              <Image src="/web19.png" alt="My Image" fill className=" object-cover" />
+            </a>
+
+
+
+            {/* <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://tinyurl.com/bd7rnbwa" target="_blank" rel="noopener noreferrer">
-                <Image src={web2} alt="Image 2" className="object-cover w-full h-full" />
+                <Image src={'/web2.png'} alt="Image 2" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://shorturl.at/mqtvY" target="_blank" rel="noopener noreferrer">
-                <Image src={web3} alt="Image 3" className="object-cover w-full h-full" />
+                <Image src={'/web3.png'} alt="Image 3" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://shorturl.at/dnHKN" target="_blank" rel="noopener noreferrer">
-                <Image src={web4} alt="Image 4" className="object-cover w-full h-full" />
+                <Image src={'/web4.png'} alt="Image 4" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://rb.gy/tuzzgn" target="_blank" rel="noopener noreferrer">
-                <Image src={web5} alt="Image 5" className="object-cover w-full h-full" />
+                <Image src={'/web5.png'} alt="Image 5" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://rb.gy/74gyek" target="_blank" rel="noopener noreferrer">
-                <Image src={web6} alt="Image 6" className="object-cover w-full h-full" />
+                <Image src={'/web6.png'} alt="Image 6" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://rb.gy/fktihq" target="_blank" rel="noopener noreferrer">
-                <Image src={web7} alt="Image 7" className="object-cover w-full h-full" />
+                <Image src={'/web7.png'} alt="Image 7" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://rb.gy/9yl2hc" target="_blank" rel="noopener noreferrer">
-                <Image src={web8} alt="Image 8" className="object-cover w-full h-full" />
+                <Image src={'/web8.png'} alt="Image 8" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://rb.gy/anioek" target="_blank" rel="noopener noreferrer">
-                <Image src={web9} alt="Image 9" className="object-cover w-full h-full" />
+                <Image src={'/web9.png'} alt="Image 9" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://tinyurl.com/y94a9phj" target="_blank" rel="noopener noreferrer">
-                <Image src={web10} alt="Image 10" className="object-cover w-full h-full" />
+                <Image src={'/web10.png'} alt="Image 10" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://tinyurl.com/yuv3krr9" target="_blank" rel="noopener noreferrer">
-                <Image src={web11} alt="Image 11" className="object-cover w-full h-full" />
+                <Image src={'/web11.png'} alt="Image 11" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://tinyurl.com/hucvnhpt" target="_blank" rel="noopener noreferrer">
-                <Image src={web12} alt="Image 12" className="object-cover w-full h-full" />
+                <Image src={'/web12.png'} alt="Image 12" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://tinyurl.com/2e5k5m7a" target="_blank" rel="noopener noreferrer">
-                <Image src={web13} alt="Image 13" className="object-cover w-full h-full" />
+                <Image src={'/web13.png'} alt="Image 13" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://tinyurl.com/3pjrjvm5" target="_blank" rel="noopener noreferrer">
-                <Image src={web14} alt="Image 14" className="object-cover w-full h-full" />
+                <Image src={'/web14.png'} alt="Image 14" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://tinyurl.com/2btnenpa" target="_blank" rel="noopener noreferrer">
-                <Image src={web15} alt="Image 15" className="object-cover w-full h-full" />
+                <Image src={'/web15.png'} alt="Image 15" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://tinyurl.com/3vv79bka" target="_blank" rel="noopener noreferrer">
-                <Image src={web16} alt="Image 16" className="object-cover w-full h-full" />
+                <Image src={'/web16.png'} alt="Image 16" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://tinyurl.com/2s3uff9x" target="_blank" rel="noopener noreferrer">
-                <Image src={web17} alt="Image 17" className="object-cover w-full h-full" />
+                <Image src={'/web17.png'} alt="Image 17" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://tinyurl.com/5n8yn329" target="_blank" rel="noopener noreferrer">
-                <Image src={web18} alt="Image 18" className="object-cover w-full h-full" />
+                <Image src={'/web18.png'} alt="Image 18" className="object-cover w-full h-full" />
               </a>
             </div>
             <div className="flex-1 rounded-lg overflow-hidden">
               <a href="https://tinyurl.com/mrxs2b22" target="_blank" rel="noopener noreferrer">
-                <Image src={web19} alt="Image 19" className="object-cover w-full h-full" />
+                <Image src={'/web19.png'} alt="Image 19" className="object-cover w-full h-full" />
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1.5px] border-t-[#3F3E45] mb-10">
             <p className="font-poppins font-normal text-center text-[18px] leading-[27px]">
