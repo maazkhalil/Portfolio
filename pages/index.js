@@ -132,7 +132,7 @@ export default function Home() {
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <div className="flex justify-center">
-                <Image src={'/test.png'} width={100} height={100} />
+                <Image src={'/Test.png'} width={100} height={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">Game Testing</h3>
               <p className="py-2">
