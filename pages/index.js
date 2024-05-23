@@ -159,88 +159,127 @@ export default function Home() {
               Welcome to my gaming universe! 🎮 Dive into a collection of <span className="text-teal-500">games</span> where every pixel tells a story. From solo ventures to collaborative masterpieces, explore my <span className="text-teal-500">portfolio</span> to witness the fusion of passion, skill, and endless imagination. Join me on this journey through the realms of interactive entertainment, where every click unlocks a new adventure. 🚀
             </p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3  gap-5 py-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 py-10">
             {/* <a href="https://shorturl.at/jwBS5" target="_blank" rel="noopener noreferrer" className=" h-10 w-10">
-              <div className=" rounded-lg  h-10 w-10">
-                <Image src={'/web1.png'} alt="Image 1" fill className="" />
-              </div>
-            </a> */}
+    <div className=" rounded-lg  h-10 w-10">
+      <Image src={'/web1.png'} alt="Image 1" fill className="" />
+    </div>
+  </a> */}
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web1.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web1.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web2.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web2.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web3.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web3.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web4.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web4.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web5.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web5.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web6.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web6.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web7.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web7.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web8.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web8.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web9.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web9.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web10.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web10.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web11.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web11.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web12.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web12.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web13.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web13.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web14.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web14.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web15.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web15.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web16.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web16.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web17.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web17.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web18.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web18.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
 
-            <a className="w-[500px] h-[500px] lg:w-[350px] lg:h-[350px] relative">
-              <Image src="/web19.PNG" alt="My Image" fill className=" object-cover" />
-            </a>
+            <div className="flex justify-center w-full">
+              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+                <Image src="/web19.PNG" alt="My Image" fill className="object-cover" />
+              </a>
+            </div>
+
 
 
 
