@@ -51,22 +51,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" bg-white px-10 md:px-20 lg-px-40 dark:bg-gray-900">
+      <main className=" bg-white px-4 md:px-10 lg-px-20 dark:bg-gray-900">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons ">developedbymk</h1>
+          <nav className="py-5 mb-8 flex justify-between">
+            <h1 className="text-lg font-burtons ">developedbymk</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl" />
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-xl md:text-2xl" />
               </li>
               <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://www.linkedin.com/in/maazkhalil/" target="_blank" rel="noopener noreferrer">Contact Me</a>
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-3 py-1 md:px-4 md:py-2 rounded-md ml-4 md:ml-8" href="https://www.linkedin.com/in/maazkhalil/" target="_blank" rel="noopener noreferrer">Contact Me</a>
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Maaz Khalil</h2>
-            <section className="text-center p-10">
+          <div className="text-center p-5 md:p-10">
+            <h2 className="text-3xl py-1 text-teal-600 font-medium md:text-5xl">Maaz Khalil</h2>
+            <section className="text-center p-5 md:p-10">
               <Typewriter words={['Game Developer.', 'Computer Scientist.']} />
             </section>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto ">
