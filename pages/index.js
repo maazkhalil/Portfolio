@@ -123,7 +123,7 @@ export default function Home() {
                 We transform your imagination into playable realities, one line of code at a time.
               </p>
               <h4 className="py-4 text-teal-600">Development Tools I Use</h4>
-              <p className=" text-gray-800 py-1" >Unity</p>
+              <p className=" text-gray-800 py-1">Unity</p>
               <p className=" text-gray-800 py-1">Microsoft Visual Studio</p>
               <p className=" text-gray-800 py-1">Blender</p>
               <p className=" text-gray-800 py-1">Photoshop</p>
@@ -167,115 +167,115 @@ export default function Home() {
   </a> */}
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.ngv.monsterbike.merge.master.puzzle&pli=1" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web1.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://apps.apple.com/pk/app/car-crash-stunt-cash-payday/id6468963096" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web2.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.kick.drago.battle.simulator&pli=1" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web3.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.dss.bank.robbery.armed.heist.shooting.games&hl=en&gl=US" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web4.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.kick.army.training.school.game" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web5.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.kick.police.eagle.robot.transform.game" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web6.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.lgn.bird.hunter.gun.shooting.range" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web7.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.gkstudio.flying.stickman.man.superhero.ropehero.transform" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web8.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.gkstudio.flying.stickman.man.superhero.ropehero.transform" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web9.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.pgstudio.oiltankertransport.truck.driving.advance.car.parking.driving.school" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web10.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.kick.trucks.manual.shift.driving" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web11.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.vinegargame.secret.agent.bank.job" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web12.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.kick.falcon.robot.transform.monster.truck.game" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web13.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.ngv.offroad.dirt.bike.racing.stunts" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web14.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.ngv.jet.ski.water.boat.racing" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web15.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.kick.treasure.hunt.lost.city.escape" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web16.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.kick.shark.hunt.revenge" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web17.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.kick.skateboard.stunts.fever2017" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web18.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
 
             <div className="flex justify-center w-full">
-              <a className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
+              <a href="https://play.google.com/store/apps/details?id=com.kick.hill.climb.bike.racer" className="w-[500px] h-[500px] lg:w-[430px] lg:h-[430px] relative">
                 <Image src="/web19.PNG" alt="My Image" fill className="object-cover" />
               </a>
             </div>
